@@ -29,7 +29,7 @@ const App = () => {
           }}
         >
           <a
-            href="#"
+            href="#head"
             style={{
               fontSize: 22,
               color: "white",
@@ -41,7 +41,7 @@ const App = () => {
             Home
           </a>
           <a
-            href="#"
+            href="#about"
             style={{
               fontSize: 22,
               color: "white",
@@ -53,7 +53,7 @@ const App = () => {
             About
           </a>
           <a
-            href="#"
+            href="#contact"
             style={{
               fontSize: 22,
               color: "white",
@@ -79,7 +79,7 @@ const App = () => {
         </div>
       </nav>
       {/* Hero Section */}
-      <div
+      <div id="head"
         style={{ backgroundColor: "#b08968", textAlign: "center", height: 550 }}
       >
         <h1 style={{ fontSize: 40, color: "#63311d" }}>
@@ -113,7 +113,7 @@ const App = () => {
       </div>
       <div>
         {/* About Section */}
-        <div
+        <div id="about"
           style={{
             backgroundColor: "#fffaf3",
             padding: "50px",
@@ -181,7 +181,7 @@ const App = () => {
         </div>
 
         {/* Footer Section */}
-        <footer
+        <footer id="contact"
           style={{
             backgroundColor: "#4b2e1f",
             color: "white",
